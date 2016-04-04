@@ -56,6 +56,10 @@ public class test {
 			System.out.println("Found, it's in index #" + element);
 		
 		}else System.out.println("Eelement not found");
+	}
+	public static void sortTester () {
 
+		int arr[] = {56,7,90,32,34,77,8,900,123,61,109,71,80,1,-56,99,511}; // some dummy values.
+		
 	}
 }
