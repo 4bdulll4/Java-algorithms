@@ -11,9 +11,23 @@ public class test {
 
 	public static void main(String[] args) {
 		
-//		readTester();
-//		BinarySearchTester();
-		SequentialSearchTester();
+	 int option;
+	 
+		do { 
+		 System.out.println("\nSelect an algorithm.\n");
+		 System.out.println("1. Read text from a file.\n   Search:\n\t2.  Binary Search.\n\t3.  Sequential Search.");
+		 System.out.println("   Sorting:\n\t4.  Selection.\n\t5.  Bubble.\n\t6.  Insertion.\n\t7.  Merge.\n\t8.  Shell.\n\t9.  Quick\n\t10. Heap.");
+		 option = in.nextInt();
+			 
+			switch (option){
+			case 1: readTester();
+				break;
+			case 2: BinarySearchTester();
+				break;
+			case 3:SequentialSearchTester();
+				break;
+			}
+		}while(option!=11);
 		
 	}
 	
