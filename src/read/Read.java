@@ -29,7 +29,7 @@ public class Read {
 		}
 	}
 
-	/* Initialize Array */
+	/* Initializing the Array */
 
 	public int init(String dir) {
 
